@@ -159,12 +159,12 @@ def get_letter_stats():
 def validate_diary_entry(entry):
     """Validate diary entry input"""
     if not entry or not entry.strip():
-        return False, "📝 Please write something in your diary entry!"
+        return False, "Please write something in your diary entry."
     
     if len(entry.strip()) < 10:
-        return False, "✍️ Your diary entry seems a bit short. Try adding more details!"
+        return False, "Your diary entry seems a bit short. Try adding more details."
     
     if len(entry.strip()) > 2000:
-        return False, "📚 Your diary entry is quite long! Try shortening it to under 2000 characters."
+        return False, "Your diary entry is quite long. Try shortening it to under 2000 characters."
     
-    return True, "✅ Looking good!"
+    return True, "Entry looks good."
