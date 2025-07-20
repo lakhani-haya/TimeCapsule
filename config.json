@@ -1,0 +1,30 @@
+{
+  "app_config": {
+    "title": "🌟 AI Time Capsule 💌",
+    "subtitle": "Transform your diary entries into loving letters to your future self ✨",
+    "page_icon": "💌",
+    "theme": {
+      "primary_color": "#ff9a9e",
+      "secondary_color": "#fecfef",
+      "accent_color": "#b8d4f0"
+    }
+  },
+  "model_config": {
+    "model_name": "google/flan-t5-base",
+    "max_length": 400,
+    "temperature": 0.7,
+    "do_sample": true
+  },
+  "ui_messages": {
+    "diary_placeholder": "Dear diary, today I felt...\n\nTell me about your day, your thoughts, your dreams, or anything on your mind. I'll help you turn it into a beautiful letter to your future self! 💭✨",
+    "loading_message": "🤖 AI is crafting your beautiful letter... ✨",
+    "success_message": "🎉 Your letter is ready!",
+    "empty_diary_warning": "📝 Please write something in your diary entry first!"
+  },
+  "letter_settings": {
+    "min_diary_length": 10,
+    "max_diary_length": 2000,
+    "auto_save": false,
+    "include_timestamp": true
+  }
+}
