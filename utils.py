@@ -44,10 +44,10 @@ def generate_letter(model, diary_entry, tone, templates):
             letter = format_as_letter(generated_text, tone)
             return letter
         else:
-            return "🤖 Sorry, I couldn't generate a letter right now. Please try again!"
+            return "I couldn't generate a letter right now. Please try again."
             
     except Exception as e:
-        return f"🚨 Error generating letter: {str(e)}"
+        return f"Error generating letter: {str(e)}"
 
 def format_as_letter(text, tone):
     """Format the generated text as a proper letter"""
@@ -104,7 +104,7 @@ Tone: {tone.title()}
         return filename
         
     except Exception as e:
-        st.error(f"🚨 Error saving letter: {str(e)}")
+        st.error(f"Error saving letter: {str(e)}")
         return None
 
 def load_templates():
