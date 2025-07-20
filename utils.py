@@ -18,8 +18,8 @@ def load_model():
         )
         return model
     except Exception as e:
-        st.error(f"🚨 Error loading model: {str(e)}")
-        st.info("💡 Make sure you have the required packages installed!")
+        st.error(f"Error loading model: {str(e)}")
+        st.info("Please make sure you have the required packages installed.")
         return None
 
 def generate_letter(model, diary_entry, tone, templates):
@@ -53,19 +53,19 @@ def format_as_letter(text, tone):
     """Format the generated text as a proper letter"""
     # Add letter greeting and closing based on tone
     greetings = {
-        "motivational": "💪 Hey Future Champion!",
-        "gentle": "💕 Dearest Future Self,",
-        "funny": "😄 Yo, Future Me!"
+        "motivational": "Dear Future Self,",
+        "gentle": "My Dear Future Self,",
+        "funny": "Hey Future Me,"
     }
     
     closings = {
-        "motivational": "\n\n🌟 Keep crushing it!\nWith fierce belief in you,\nYour Past Self 💪",
-        "gentle": "\n\n🌸 Sending you all my love and warmth,\nYour caring past self 💕",
-        "funny": "\n\n😂 Stay awesome (and maybe a little weird)!\nYour hilariously past self 🎭"
+        "motivational": "\n\nWith unwavering belief in your potential,\nYour Past Self",
+        "gentle": "\n\nWith all my love and understanding,\nYour caring past self",
+        "funny": "\n\nStay amazing (and keep that sense of humor!),\nYour wonderfully past self"
     }
     
-    greeting = greetings.get(tone, "💌 Dear Future Self,")
-    closing = closings.get(tone, "\n\n✨ With love,\nYour Past Self 💝")
+    greeting = greetings.get(tone, "Dear Future Self,")
+    closing = closings.get(tone, "\n\nWith warm regards,\nYour Past Self")
     
     # Clean up the text
     text = text.strip()
@@ -90,7 +90,7 @@ def save_letter(letter_content, tone):
         
         # Add metadata header to the saved file
         metadata_header = f"""
-🌟 AI Time Capsule Letter 💌
+AI Time Capsule Letter
 Generated on: {datetime.now().strftime("%B %d, %Y at %I:%M %p")}
 Tone: {tone.title()}
 ═══════════════════════════════════════════════════════
