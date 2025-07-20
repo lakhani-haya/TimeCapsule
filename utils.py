@@ -118,7 +118,7 @@ def load_templates():
             # Return default templates if file doesn't exist
             return get_default_templates()
     except Exception as e:
-        st.error(f"🚨 Error loading templates: {str(e)}")
+        st.error(f"Error loading templates: {str(e)}")
         return get_default_templates()
 
 def get_default_templates():
