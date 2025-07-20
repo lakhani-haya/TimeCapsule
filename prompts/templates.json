@@ -1,0 +1,7 @@
+{
+  "motivational": "Transform this diary entry into an uplifting, motivational letter to the writer's future self. Make it encouraging, empowering, and full of belief in their potential. Focus on their strengths and growth. Write as if you're their biggest cheerleader:\n\n{entry}",
+  
+  "gentle": "Rewrite this diary entry as a soft, comforting letter to the writer's future self. Make it warm, nurturing, and full of self-compassion. Acknowledge their feelings with kindness and offer gentle encouragement. Write with the tenderness of a loving friend:\n\n{entry}",
+  
+  "funny": "Transform this diary entry into a lighthearted, humorous letter to the writer's future self. Make it witty, playful, and uplifting while keeping the core message positive. Add some gentle humor and amusing observations about life. Write as if you're their funniest, most supportive friend:\n\n{entry}"
+}
