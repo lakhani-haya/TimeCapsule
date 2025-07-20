@@ -7,8 +7,8 @@ import time
 
 # Page configuration
 st.set_page_config(
-    page_title="🌟 AI Time Capsule",
-    page_icon="💌",
+    page_title="AI Time Capsule",
+    page_icon="�",
     layout="wide",
     initial_sidebar_state="expanded"
 )
