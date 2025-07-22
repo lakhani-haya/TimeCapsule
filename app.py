@@ -19,16 +19,16 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;700&family=Source+Sans+Pro:wght@300;400;600&display=swap');
     
     .stApp {
-        background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     }
     
     .main-header {
         text-align: center;
-        background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+        background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
         padding: 4rem 3rem;
         margin: -1rem -1rem 3rem -1rem;
         color: white;
-        box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+        box-shadow: 0 8px 32px rgba(255, 107, 107, 0.3);
         border-bottom: 1px solid rgba(255,255,255,0.1);
     }
     
