@@ -160,17 +160,17 @@ st.markdown("""
     }
     
     .stats-container {
-        background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
         padding: 2rem;
         border-radius: 12px;
         margin: 1.5rem 0;
         text-align: center;
-        border: 1px solid rgba(0,0,0,0.05);
-        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        border: 1px solid rgba(108, 92, 231, 0.2);
+        box-shadow: 0 4px 15px rgba(108, 92, 231, 0.15);
     }
     
     .stats-container h4 {
-        color: #2c3e50;
+        color: white;
         font-family: 'Playfair Display', serif;
         font-weight: 500;
         margin-bottom: 0.5rem;
@@ -178,7 +178,7 @@ st.markdown("""
     }
     
     .stats-container p {
-        color: #5a6c7d;
+        color: rgba(255, 255, 255, 0.9);
         font-family: 'Source Sans Pro', sans-serif;
         font-style: italic;
         margin-bottom: 0;
@@ -186,12 +186,12 @@ st.markdown("""
     }
     
     .sidebar-section {
-        background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
         padding: 1.5rem;
         border-radius: 12px;
         margin: 1.5rem 0;
-        border: 1px solid rgba(0,0,0,0.05);
-        box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        border: 1px solid rgba(232, 67, 147, 0.2);
+        box-shadow: 0 4px 15px rgba(232, 67, 147, 0.15);
     }
     
     .elegant-divider {
@@ -207,22 +207,23 @@ st.markdown("""
         left: 0;
         right: 0;
         height: 1px;
-        background: linear-gradient(90deg, transparent 0%, #d4af37 20%, #ffd700 50%, #d4af37 80%, transparent 100%);
+        background: linear-gradient(90deg, transparent 0%, #ff6b6b 20%, #f368e0 50%, #54a0ff 80%, transparent 100%);
     }
     
     .elegant-divider span {
-        background: #f5f7fa;
-        color: #8b9dc3;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
         padding: 0 2rem;
         font-family: 'Playfair Display', serif;
         font-size: 1.5rem;
         position: relative;
         z-index: 1;
+        border-radius: 20px;
     }
     
     /* Custom button styling */
     .stButton > button {
-        background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+        background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
         color: white;
         border: none;
         border-radius: 8px;
@@ -231,12 +232,12 @@ st.markdown("""
         font-weight: 600;
         letter-spacing: 1px;
         transition: all 0.3s ease;
-        box-shadow: 0 4px 15px rgba(44, 62, 80, 0.2);
+        box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
     }
     
     .stButton > button:hover {
-        background: linear-gradient(135deg, #34495e 0%, #2c3e50 100%);
-        box-shadow: 0 6px 20px rgba(44, 62, 80, 0.3);
+        background: linear-gradient(135deg, #ee5a24 0%, #ff6b6b 100%);
+        box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
         transform: translateY(-2px);
     }
     
