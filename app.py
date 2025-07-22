@@ -416,14 +416,14 @@ with col2:
         """, unsafe_allow_html=True)
 
 # Elegant divider
-st.markdown('<div class="elegant-divider">❋</div>', unsafe_allow_html=True)
+st.markdown('<div class="elegant-divider"><span>✦</span></div>', unsafe_allow_html=True)
 
 # Footer
 st.markdown("""
 ---
-<div style="text-align: center; padding: 2rem; background: linear-gradient(135deg, #f8f9fa, #e9ecef); border-radius: 8px; margin-top: 2rem; border-left: 4px solid #6c757d;">
-    <h4 style="color: #495057; font-family: 'Georgia', serif; font-weight: 300;">Crafted for Your Future Self</h4>
-    <p style="color: #6c757d; font-style: italic; margin-bottom: 0;">Every entry is an opportunity to connect with tomorrow's you</p>
+<div style="text-align: center; padding: 3rem 2rem; background: linear-gradient(135deg, #fafbfc 0%, #f0f2f5 100%); border-radius: 12px; margin-top: 3rem; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 8px 25px rgba(0,0,0,0.05);">
+    <h4 style="color: #2c3e50; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 1.5rem; margin-bottom: 1rem;">Crafted for Tomorrow's You</h4>
+    <p style="color: #5a6c7d; font-family: 'Source Sans Pro', sans-serif; font-style: italic; margin-bottom: 0; font-size: 1rem; line-height: 1.6;">Each reflection becomes a bridge between your present consciousness and future wisdom</p>
 </div>
 """, unsafe_allow_html=True)
 
