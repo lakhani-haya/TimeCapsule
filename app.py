@@ -248,20 +248,20 @@ st.markdown("""
     
     /* Sidebar styling */
     .css-1d391kg {
-        background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+        background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
     }
     
     /* Text area styling */
     .stTextArea > div > div > textarea {
         font-family: 'Source Sans Pro', sans-serif;
         border-radius: 8px;
-        border: 2px solid #e2e8f0;
+        border: 2px solid #a29bfe;
         transition: border-color 0.3s ease;
     }
     
     .stTextArea > div > div > textarea:focus {
-        border-color: #8b9dc3;
-        box-shadow: 0 0 0 3px rgba(139, 157, 195, 0.1);
+        border-color: #6c5ce7;
+        box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
     }
 </style>
 """, unsafe_allow_html=True)
