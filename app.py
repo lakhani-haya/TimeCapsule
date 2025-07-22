@@ -422,9 +422,9 @@ st.markdown('<div class="elegant-divider"><span>✦</span></div>', unsafe_allow_
 # Footer
 st.markdown("""
 ---
-<div style="text-align: center; padding: 3rem 2rem; background: linear-gradient(135deg, #fafbfc 0%, #f0f2f5 100%); border-radius: 12px; margin-top: 3rem; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 8px 25px rgba(0,0,0,0.05);">
-    <h4 style="color: #2c3e50; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 1.5rem; margin-bottom: 1rem;">Crafted for Tomorrow's You</h4>
-    <p style="color: #5a6c7d; font-family: 'Source Sans Pro', sans-serif; font-style: italic; margin-bottom: 0; font-size: 1rem; line-height: 1.6;">Each reflection becomes a bridge between your present consciousness and future wisdom</p>
+<div style="text-align: center; padding: 3rem 2rem; background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.9) 100%); border-radius: 12px; margin-top: 3rem; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 8px 25px rgba(0,0,0,0.05);">
+    <h4 style="color: #2f3640; font-family: 'Playfair Display', serif; font-weight: 400; font-size: 1.5rem; margin-bottom: 1rem;">Crafted for Tomorrow's You</h4>
+    <p style="color: #57606f; font-family: 'Source Sans Pro', sans-serif; font-style: italic; margin-bottom: 0; font-size: 1rem; line-height: 1.6;">Each reflection becomes a bridge between your present consciousness and future wisdom</p>
 </div>
 """, unsafe_allow_html=True)
 
