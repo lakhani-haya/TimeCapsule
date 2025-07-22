@@ -319,7 +319,7 @@ with st.sidebar:
     st.markdown("### Writing Guidelines")
     st.markdown("""
     <div class="sidebar-section">
-        <p style="font-size: 0.9rem; color: #5a6c7d; margin: 0.5rem 0; line-height: 1.5;">
+        <p style="font-size: 0.9rem; color: white; margin: 0.5rem 0; line-height: 1.5;">
         • Express your authentic feelings<br>
         • Include current aspirations<br>  
         • Note moments of gratitude<br>
@@ -334,7 +334,7 @@ with st.sidebar:
     st.markdown("### About This Experience")
     st.markdown("""
     <div class="sidebar-section">
-        <p style="font-size: 0.9rem; color: #5a6c7d; margin: 0; line-height: 1.6;">
+        <p style="font-size: 0.9rem; color: white; margin: 0; line-height: 1.6;">
         This sophisticated application employs advanced AI to transform your personal reflections 
         into thoughtful correspondence with your future self, creating a bridge between who you are today 
         and who you aspire to become.
