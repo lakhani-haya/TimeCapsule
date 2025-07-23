@@ -186,12 +186,12 @@ st.markdown("""
     }
     
     .sidebar-section {
-        background: linear-gradient(135deg, #fd79a8 0%, #e84393 100%);
+        background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
         padding: 1.5rem;
         border-radius: 12px;
         margin: 1.5rem 0;
-        border: 1px solid rgba(232, 67, 147, 0.2);
-        box-shadow: 0 4px 15px rgba(232, 67, 147, 0.15);
+        border: 1px solid #dee2e6;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     }
     
     .elegant-divider {
