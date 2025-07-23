@@ -389,8 +389,8 @@ with col2:
     if st.session_state.generated_letter:
         # Display the generated letter
         st.markdown(f"""
-        <div style="background: linear-gradient(135deg, #fafbfc 0%, #f8f9fb 100%); padding: 3rem; border-radius: 12px; border: 1px solid rgba(0,0,0,0.05); margin: 1rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08); font-family: 'Source Sans Pro', sans-serif; line-height: 1.8; color: #2f3640; position: relative;">
-            <div style="position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #ff9ff3 0%, #f368e0 50%, #ff9ff3 100%); border-radius: 12px 12px 0 0;"></div>
+        <div style="background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%); padding: 3rem; border-radius: 12px; border: 1px solid #dee2e6; margin: 1rem 0; box-shadow: 0 10px 30px rgba(0,0,0,0.08); font-family: 'Source Sans Pro', sans-serif; line-height: 1.8; color: #212529; position: relative;">
+            <div style="position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, #495057 0%, #6c757d 50%, #495057 100%); border-radius: 12px 12px 0 0;"></div>
             <div style="margin-top: 1rem;">{st.session_state.generated_letter}</div>
         </div>
         """, unsafe_allow_html=True)
