@@ -224,7 +224,7 @@ st.markdown("""
     
     /* Custom button styling */
     .stButton > button {
-        background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+        background: linear-gradient(135deg, #343a40 0%, #495057 100%);
         color: white;
         border: none;
         border-radius: 8px;
@@ -233,12 +233,12 @@ st.markdown("""
         font-weight: 600;
         letter-spacing: 1px;
         transition: all 0.3s ease;
-        box-shadow: 0 4px 15px rgba(255, 107, 107, 0.3);
+        box-shadow: 0 4px 15px rgba(52, 58, 64, 0.2);
     }
     
     .stButton > button:hover {
-        background: linear-gradient(135deg, #ee5a24 0%, #ff6b6b 100%);
-        box-shadow: 0 6px 20px rgba(255, 107, 107, 0.4);
+        background: linear-gradient(135deg, #495057 0%, #6c757d 100%);
+        box-shadow: 0 6px 20px rgba(52, 58, 64, 0.3);
         transform: translateY(-2px);
     }
     
