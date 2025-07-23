@@ -207,18 +207,19 @@ st.markdown("""
         left: 0;
         right: 0;
         height: 1px;
-        background: linear-gradient(90deg, transparent 0%, #ff6b6b 20%, #f368e0 50%, #54a0ff 80%, transparent 100%);
+        background: linear-gradient(90deg, transparent 0%, #adb5bd 20%, #6c757d 50%, #adb5bd 80%, transparent 100%);
     }
     
     .elegant-divider span {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        color: #495057;
         padding: 0 2rem;
         font-family: 'Playfair Display', serif;
         font-size: 1.5rem;
         position: relative;
         z-index: 1;
         border-radius: 20px;
+        border: 1px solid #dee2e6;
     }
     
     /* Custom button styling */
