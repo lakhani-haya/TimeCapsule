@@ -160,17 +160,17 @@ st.markdown("""
     }
     
     .stats-container {
-        background: linear-gradient(135deg, #a29bfe 0%, #6c5ce7 100%);
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
         padding: 2rem;
         border-radius: 12px;
         margin: 1.5rem 0;
         text-align: center;
-        border: 1px solid rgba(108, 92, 231, 0.2);
-        box-shadow: 0 4px 15px rgba(108, 92, 231, 0.15);
+        border: 1px solid #dee2e6;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
     }
     
     .stats-container h4 {
-        color: white;
+        color: #212529;
         font-family: 'Playfair Display', serif;
         font-weight: 500;
         margin-bottom: 0.5rem;
@@ -178,7 +178,7 @@ st.markdown("""
     }
     
     .stats-container p {
-        color: rgba(255, 255, 255, 0.9);
+        color: #6c757d;
         font-family: 'Source Sans Pro', sans-serif;
         font-style: italic;
         margin-bottom: 0;
