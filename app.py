@@ -249,20 +249,20 @@ st.markdown("""
     
     /* Sidebar styling */
     .css-1d391kg {
-        background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+        background: linear-gradient(135deg, rgba(248, 249, 250, 0.8) 0%, rgba(233, 236, 239, 0.8) 100%);
     }
     
     /* Text area styling */
     .stTextArea > div > div > textarea {
         font-family: 'Source Sans Pro', sans-serif;
         border-radius: 8px;
-        border: 2px solid #a29bfe;
+        border: 2px solid #dee2e6;
         transition: border-color 0.3s ease;
     }
     
     .stTextArea > div > div > textarea:focus {
-        border-color: #6c5ce7;
-        box-shadow: 0 0 0 3px rgba(108, 92, 231, 0.2);
+        border-color: #6c757d;
+        box-shadow: 0 0 0 3px rgba(108, 117, 125, 0.15);
     }
 </style>
 """, unsafe_allow_html=True)
