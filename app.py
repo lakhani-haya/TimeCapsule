@@ -136,13 +136,13 @@ st.markdown("""
         top: 0;
         left: 0;
         right: 0;
-        height: 4px;
-        background: linear-gradient(90deg, #ff9ff3 0%, #f368e0 50%, #ff9ff3 100%);
+        height: 3px;
+        background: linear-gradient(90deg, #495057 0%, #6c757d 50%, #495057 100%);
         border-radius: 12px 12px 0 0;
     }
     
     .letter-container h3 {
-        color: #8e44ad;
+        color: #343a40;
         font-family: 'Playfair Display', serif;
         font-weight: 500;
         font-size: 1.8rem;
@@ -151,7 +151,7 @@ st.markdown("""
     }
     
     .letter-container p {
-        color: #9c88ff;
+        color: #6c757d;
         font-family: 'Source Sans Pro', sans-serif;
         font-style: italic;
         font-size: 1rem;
