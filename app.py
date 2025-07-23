@@ -410,10 +410,10 @@ with col2:
                 
     else:
         st.markdown("""
-        <div style="text-align: center; padding: 5rem 2rem; color: rgba(255, 255, 255, 0.8);">
-            <h4 style="color: white; font-family: 'Playfair Display', serif; font-weight: 300; font-size: 1.5rem; margin-bottom: 1rem;">Your Personal Letter Awaits</h4>
+        <div style="text-align: center; padding: 5rem 2rem; color: rgba(108, 117, 125, 0.8);">
+            <h4 style="color: #495057; font-family: 'Playfair Display', serif; font-weight: 300; font-size: 1.5rem; margin-bottom: 1rem;">Your Personal Letter Awaits</h4>
             <p style="font-family: 'Source Sans Pro', sans-serif; font-style: italic; font-size: 1.1rem; line-height: 1.6;">Express yourself in the space to the left, then witness the transformation of your thoughts into a meaningful correspondence with your future self.</p>
-            <div style="font-size: 3rem; margin-top: 2rem; opacity: 0.5;">✒</div>
+            <div style="font-size: 3rem; margin-top: 2rem; opacity: 0.3; color: #adb5bd;">✒</div>
         </div>
         """, unsafe_allow_html=True)
 
