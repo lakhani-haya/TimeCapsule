@@ -97,13 +97,13 @@ st.markdown("""
         top: 0;
         left: 0;
         right: 0;
-        height: 4px;
-        background: linear-gradient(90deg, #54a0ff 0%, #5f27cd 50%, #54a0ff 100%);
+        height: 3px;
+        background: linear-gradient(90deg, #6c757d 0%, #adb5bd 50%, #6c757d 100%);
         border-radius: 12px 12px 0 0;
     }
     
     .diary-container h3 {
-        color: #2f3640;
+        color: #212529;
         font-family: 'Playfair Display', serif;
         font-weight: 500;
         font-size: 1.8rem;
@@ -112,7 +112,7 @@ st.markdown("""
     }
     
     .diary-container p {
-        color: #57606f;
+        color: #6c757d;
         font-family: 'Source Sans Pro', sans-serif;
         font-style: italic;
         font-size: 1rem;
