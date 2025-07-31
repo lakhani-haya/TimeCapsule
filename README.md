@@ -67,19 +67,6 @@ Navigate to `http://localhost:8501` and start creating thoughtful letters.
 - **Performance**: Excellent for rewriting and transformation tasks
 - **Privacy**: Runs 100% locally on your machine
 
-## Customization
-
-### Adding New Tones
-Edit `prompts/templates.json` to add your own letter styles:
-
-```json
-{
-  "your_tone": "Your custom prompt template here: {entry}"
-}
-```
-
-### Styling Changes
-Modify the CSS in `app.py` to customize colors, fonts, and layouts.
 
 ## Technical Notes
 
