@@ -84,4 +84,4 @@ Navigate to `http://localhost:8501` and start creating thoughtful letters.
 
 
 
--reflection and future connection*
+- and future connection*
