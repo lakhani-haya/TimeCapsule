@@ -84,12 +84,4 @@ Navigate to `http://localhost:8501` and start creating thoughtful letters.
 
 
 
-## Acknowledgments
-
-- Hugging Face for providing excellent free models
-- Streamlit for the wonderful application framework
-- The open source community for continuous innovation
-
----
-
-*Crafted for meaningful self-reflection and future connection*
+-reflection and future connection*
