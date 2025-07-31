@@ -76,11 +76,4 @@ Navigate to `http://localhost:8501` and start creating thoughtful letters.
 - **Python**: 3.8+ required
 
 
-- Write goals and challenges
-- Mention what you're grateful for
-- Be honest about your struggles
-- Practice self-compassion in your reflections
-
-
-
-- and future connection*
+- l
