@@ -62,11 +62,7 @@ Navigate to `http://localhost:8501` and start creating thoughtful letters.
 ## AI Model Details
 
 - **Model**: `google/flan-t5-base`
-- **Type**: Text-to-text generation
-- **Size**: ~250MB (downloads automatically on first run)
-- **Performance**: Excellent for rewriting and transformation tasks
-- **Privacy**: Runs 100% locally on your machine
-
+- **
 
 ## Technical Notes
 
@@ -76,4 +72,4 @@ Navigate to `http://localhost:8501` and start creating thoughtful letters.
 - **Python**: 3.8+ required
 
 
-- l
+-
