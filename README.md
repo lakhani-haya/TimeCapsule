@@ -95,17 +95,7 @@ Modify the CSS in `app.py` to customize colors, fonts, and layouts.
 - Be honest about your struggles
 - Practice self-compassion in your reflections
 
-## Contributing
 
-This project is open source. Feel free to:
-- Report bugs and issues
-- Suggest new features and improvements
-- Enhance the user experience
-- Improve documentation
-
-## License
-
-This project is available under the MIT License.
 
 ## Acknowledgments
 
