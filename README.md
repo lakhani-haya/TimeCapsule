@@ -88,18 +88,6 @@ Modify the CSS in `app.py` to customize colors, fonts, and layouts.
 - **Supported**: Windows, macOS, Linux
 - **Python**: 3.8+ required
 
-## Troubleshooting
-
-### Model Won't Load
-- Ensure you have stable internet for the initial download
-- Check that you have enough RAM (4GB+ recommended)
-- Try restarting the app
-
-### Streamlit Issues
-- Make sure port 8501 isn't in use
-- Try running with `streamlit run app.py --server.port 8502`
-
-## Writing Guidelines
 
 - Write about your genuine feelings and experiences
 - Include your current goals and challenges
