@@ -62,7 +62,6 @@ Navigate to `http://localhost:8501` and start creating thoughtful letters.
 ## AI Model Details
 
 - **Model**: `google/flan-t5-base`
-- **
 
 ## Technical Notes
 
