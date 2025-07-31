@@ -1,10 +1,10 @@
 # AI Time Capsule
 
-Transform your diary entries into thoughtful letters to your future self using the power of AI.
+Transform your diary entries into thoughtful letters to your future self using AI.
 
 ## Description
 
-AI Time Capsule is an elegant Streamlit-based web application that allows you to write diary entries, then uses an AI language model to rewrite them as thoughtful, motivational letters to your future self. Everything runs locally and for free using Hugging Face's open-source models — no API keys or paid services required.
+AI Time Capsule is a Streamlit-based web application that allows you to write diary entries, then uses an AI language model to rewrite them as thoughtful, motivational letters to your future self. Everything runs locally and for free using Hugging Face's open-source models — no API keys or paid services required.
 
 ## Features
 
@@ -20,13 +20,13 @@ AI Time Capsule is an elegant Streamlit-based web application that allows you to
 
 ```
 ai-time-capsule/
-├── app.py                  # Main Streamlit app with elegant UI
+├── app.py                  # Main Streamlit app with UI
 ├── requirements.txt        # Python dependencies
 ├── utils.py                # AI model interface and helper functions
 ├── prompts/
-│   └── templates.json      # Prompt templates for different tones
+│   └── templates.json      # Prompt templates
 ├── outputs/
-│   └── saved_letters/      # Your saved letters
+│   └── saved_letters/      # Saved letters
 └── README.md               # Project documentation
 ```
 
@@ -51,14 +51,6 @@ streamlit run app.py
 ### 4. Open Your Browser
 Navigate to `http://localhost:8501` and start creating thoughtful letters.
 
-## How to Use
-
-1. **Write Your Diary Entry**: Express your thoughts and feelings in the left column
-2. **Choose Your Tone**: Select Motivational, Gentle, or Funny from the sidebar
-3. **Transform**: Click the button to generate your letter
-4. **Review**: Read your personalized letter to your future self
-5. **Save**: Store your letter for future inspiration
-
 ## AI Model Details
 
 - **Model**: `google/flan-t5-base`
@@ -70,5 +62,3 @@ Navigate to `http://localhost:8501` and start creating thoughtful letters.
 - **Supported**: Windows, macOS, Linux
 - **Python**: 3.8+ required
 
-
--
