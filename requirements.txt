@@ -3,5 +3,5 @@ transformers
 torch
 tokenizers
 numpy
-pandas>=2.0.0
+pandas
 requests>=2.31.0
