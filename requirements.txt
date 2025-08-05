@@ -1,6 +1,6 @@
 streamlit
 transformers
-torch>=2.0.0
+torch
 tokenizers>=0.13.0
 numpy>=1.24.0
 pandas>=2.0.0
