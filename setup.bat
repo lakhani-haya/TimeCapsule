@@ -10,7 +10,7 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-echo ✅ Python found!
+echo Python found!
 
 REM Create virtual environment
 echo 🔧 Creating virtual environment...
