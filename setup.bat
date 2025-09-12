@@ -33,5 +33,5 @@ echo    time_capsule_env\Scripts\activate.bat
 echo 2. Run the app:
 echo    streamlit run app.py
 echo.
-echo 💌 Happy letter writing! 
+echo Happy letter writing! 
 pause
