@@ -25,7 +25,7 @@ echo 📦 Installing dependencies...
 pip install -r requirements.txt
 
 echo.
-echo Setup complete! 🎉
+echo Setup complete! 
 echo.
 echo To run the app:
 echo 1. Activate the environment:
