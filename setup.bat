@@ -1,5 +1,5 @@
 @echo off
-echo 🌟 Setting up AI Time Capsule... 💌
+echo 🌟 Setting up AI Time Capsule... 
 echo.
 
 REM Check if Python is installed
