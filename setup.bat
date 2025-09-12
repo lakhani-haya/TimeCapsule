@@ -13,7 +13,7 @@ if %errorlevel% neq 0 (
 echo Python found!
 
 REM Create virtual environment
-echo 🔧 Creating virtual environment...
+echo Creating virtual environment...
 python -m venv time_capsule_env
 
 REM Activate virtual environment
