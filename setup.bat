@@ -5,7 +5,7 @@ echo.
 REM Check if Python is installed
 python --version >nul 2>&1
 if %errorlevel% neq 0 (
-    echo ❌ Python is not installed. Please install Python 3.8+ first.
+    echo Python is not installed. Please install Python 3.8+ first.
     pause
     exit /b 1
 )
