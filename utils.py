@@ -25,7 +25,7 @@ def load_model():
 def generate_letter(model, diary_entry, tone, templates):
     """Generate a letter from diary entry using the specified tone"""
     if not model:
-        return "❌ Model not available. Please check your setup."
+        return "Model not available. Please check your setup."
     
     try:
         # Get the prompt template for the selected tone
