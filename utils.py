@@ -8,7 +8,7 @@ import streamlit as st
 def load_model():
     """Load the AI model for text generation"""
     try:
-        # Using google/flan-t5-base as recommended - great for rewriting tasks
+        # Using google/flan-t5-base as recommended - great for rewriting 
         model = pipeline(
             "text2text-generation", 
             model="google/flan-t5-base",
