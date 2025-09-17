@@ -12,7 +12,7 @@ fi
 echo "Python found!"
 
 # Create virtual environment
-echo "🔧 Creating virtual environment..."
+echo "Creating virtual environment..."
 python -m venv time_capsule_env
 
 # Activate virtual environment
