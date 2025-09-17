@@ -24,7 +24,7 @@ else
 fi
 
 # Install requirements
-echo "📦 Installing dependencies..."
+echo "Installing dependencies..."
 pip install -r requirements.txt
 
 echo ""
