@@ -16,7 +16,7 @@ echo "Creating virtual environment..."
 python -m venv time_capsule_env
 
 # Activate virtual environment
-echo "🚀 Activating virtual environment..."
+echo "Activating virtual environment..."
 if [[ "$OSTYPE" == "msys" || "$OSTYPE" == "win32" ]]; then
     source time_capsule_env/Scripts/activate
 else
