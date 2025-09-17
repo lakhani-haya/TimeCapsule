@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🌟 Setting up AI Time Capsule... 💌"
+echo "Setting up AI Time Capsule... 💌"
 echo ""
 
 # Check if Python is installed
