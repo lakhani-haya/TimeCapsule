@@ -9,7 +9,7 @@ if ! command -v python &> /dev/null; then
     exit 1
 fi
 
-echo "✅ Python found!"
+echo "Python found!"
 
 # Create virtual environment
 echo "🔧 Creating virtual environment..."
