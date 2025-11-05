@@ -3,7 +3,7 @@
 echo "Setting up AI Time Capsule... "
 echo ""
 
-# Check if 
+# Check
 if ! command -v python &> /dev/null; then
     echo "Python is not installed. Please install Python 3.8+ first."
     exit 1
