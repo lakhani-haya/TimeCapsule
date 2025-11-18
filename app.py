@@ -5,7 +5,7 @@ from datetime import datetime
 from utils import load_model, generate_letter, save_letter
 import time
 
-# Page configur
+# Page c
 st.set_page_config(
     page_title="AI Time Capsule",
     page_icon="�",
