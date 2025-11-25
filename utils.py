@@ -6,7 +6,7 @@ import streamlit as st
 
 @st.cache_resource
 def load_model():
-    """Load the AI model for t generation"""
+    """Load the AI model for tgeneration"""
     try:
         # Using google/flan-t5-base as recommended 
         model = pipeline(
