@@ -8,7 +8,7 @@ import streamlit as st
 def load_model():
     """Load the AI model for generation"""
     try:
-        # Using google/flan-t5-base as 
+        # Using google/flan-t5-base
         model = pipeline(
             "text2text-generation", 
             model="google/flan-t5-base",
