@@ -28,7 +28,7 @@ def generate_letter(model, diary_entry, tone, templates):
         return "Model not available. Please check your setup."
     
     try:
-        # Get the prompt template for the selected tone
+        # Get the prompt template for the selected
         prompt_template = templates.get(tone, templates["motivational"])
         
         # Format the prompt with the diary entry
